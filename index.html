@@ -4,11 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Recipes - Homepage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Merriweather:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <a href="recipes/burgers.html">Homemade Smash Burgers</a>
-    <a href="recipes/lasagna.html">Spinach Lasagna</a>
-    <a href="recipes/tacos.html">Homemade Smash Burgers</a>
+    <div class="container">
+      <div class="main">
+        <h1 class="logo">Odin Recipes</h1>
+        <p class="intro">
+          Welcome to Odin Recipes, your one-stop destination for a world of
+          flavors and culinary delights. Explore our diverse collection of
+          mouthwatering recipes, thoughtfully curated to suit every palate and
+          skill level. So, tie your apron and let your culinary adventure begin!
+          <br /><br />Happy cooking!
+        </p>
+
+        <h2>Featured Recipes</h2>
+        <div class="featured-content">
+          <div class="food-card">
+            <a href="recipes/burgers.html">
+              <div class="food-link burger-img"></div>
+              Homemade Smash Burgers
+            </a>
+          </div>
+          <div class="food-card">
+            <a href="recipes/lasagna.html">
+              <div class="food-link lasagna-img"></div>
+              Spinach Lasagna
+            </a>
+          </div>
+          <div class="food-card">
+            <a href="recipes/tacos.html">
+              <div class="food-link taco-img"></div>
+              Double Decker Tacos
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
