@@ -1,0 +1,93 @@
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #0d0d0d;
+}
+
+body,
+p,
+h1,
+h2 {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.8em;
+    color: #fff;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.main {
+    width: 90%;
+    padding: 0;
+    margin: 0 auto 60px;
+}
+
+h1.logo {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 40px 0;
+    border-bottom: 1px solid #fff;
+}
+
+p.intro {
+    font-family: 'Merriweather', serif;
+    padding: 40px 0;
+    margin-bottom: 40px;
+    font-size: 1.7rem;
+    border-bottom: 1px solid #fff;
+
+}
+
+h2 {
+    padding: 0 0 40px 0;
+}
+
+.featured-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-link {
+    width: 100%;
+    max-width: 250px;
+    min-width: 240px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.burger-img {
+    background-image: url(https://gp-dev-storage.s3-us-east-2.amazonaws.com/odin-recipes/burger.png);
+
+}
+
+.lasagna-img {
+    background-image: url(https://gp-dev-storage.s3-us-east-2.amazonaws.com/odin-recipes/lasagne.png);
+}
+
+.taco-img {
+    background-image: url(https://gp-dev-storage.s3-us-east-2.amazonaws.com/odin-recipes/tacos.png);
+}
+
+.food-card a {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
