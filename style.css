@@ -136,6 +136,37 @@ h2 {
     letter-spacing: 1px;
 }
 
+.nav-links-container {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    border-top: 1px solid #fff;
+    margin-top: 40px;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link img {
+    width: 50px;
+}
+
+.nav-link a {
+    align-self: center;
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+
+
+
 @media (max-width:986px) {
     .featured-content {
         display: flex;
@@ -151,5 +182,9 @@ h2 {
 
     .food-card {
         padding-bottom: 30px;
+    }
+
+    .icon-txt {
+        display: none;
     }
 }
